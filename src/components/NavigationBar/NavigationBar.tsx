@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 const NavigationBar = () => (
   <Navbar bg="light" expand="lg">
-    <Container>
+    <Container className="navbar-container">
       <Navbar.Brand href="home">Zachary Lee</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
