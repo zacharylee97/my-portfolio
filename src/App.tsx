@@ -10,6 +10,7 @@ import {
 import React from "react";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Home from "./pages/Home/Home";
+import AboutMe from "./pages/AboutMe/AboutMe";
 
 const App = () => (
   <Router>
@@ -17,6 +18,7 @@ const App = () => (
     <Routes>
       <Route path="/" element={<Navigate replace to="/home" />} />
       <Route path="home" element={<Home />} />
+      <Route path="about-me" element={<AboutMe />} />
     </Routes>
   </Router>
 );
