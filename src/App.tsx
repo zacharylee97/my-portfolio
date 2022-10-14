@@ -12,6 +12,7 @@ import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Home from "./pages/Home/Home";
 import AboutMe from "./pages/AboutMe/AboutMe";
 import Education from "./pages/Education/Education";
+import LighthouseLabs from "./pages/LighthouseLabs/LighthouseLabs";
 
 const App = () => (
   <Router>
@@ -21,6 +22,7 @@ const App = () => (
       <Route path="home" element={<Home />} />
       <Route path="about-me" element={<AboutMe />} />
       <Route path="education" element={<Education />} />
+      <Route path="lighthouse-labs" element={<LighthouseLabs />} />
     </Routes>
   </Router>
 );
