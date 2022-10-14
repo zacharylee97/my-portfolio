@@ -3,7 +3,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 
 const AboutMe = () => (
-  <Container className="about-me-container">
+  <Container className="page-container">
     <h1>About Me</h1>
     <p>
       I am a full-stack web developer with a background in life sciences. Having
