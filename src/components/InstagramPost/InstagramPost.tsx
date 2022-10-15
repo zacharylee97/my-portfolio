@@ -35,7 +35,7 @@ const InstagramPost = ({ ...props }) => {
 
   return (
     <Container className="feed-container">
-      {feed && <Feed key={feed.id} feed={feed} />}
+      {feed && <Feed key={feed.id} feed={feed} width={"100%"} />}
     </Container>
   );
 };

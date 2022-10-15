@@ -10,7 +10,7 @@ const Feed = ({ ...props }) => {
     case "VIDEO":
       post = (
         <video
-          width="100%"
+          width={props.width}
           height="auto"
           src={media_url}
           typeof="video/mp4"
@@ -21,12 +21,24 @@ const Feed = ({ ...props }) => {
       break;
     case "CAROUSEL_ALBUM":
       post = (
-        <img width="100%" height="auto" id={id} src={media_url} alt={caption} />
+        <img
+          width={props.width}
+          height="auto"
+          id={id}
+          src={media_url}
+          alt={caption}
+        />
       );
       break;
     default:
       post = (
-        <img width="50%" height="auto" id={id} src={media_url} alt={caption} />
+        <img
+          width={props.width}
+          height="auto"
+          id={id}
+          src={media_url}
+          alt={caption}
+        />
       );
   }
   return (
