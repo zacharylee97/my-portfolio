@@ -1,6 +1,7 @@
 import "./AboutMe.css";
 import React from "react";
 import { Container } from "react-bootstrap";
+import InstagramFeed from "../../components/InstagramFeed/InstagramFeed";
 
 const AboutMe = () => (
   <Container className="page-container">
@@ -15,6 +16,7 @@ const AboutMe = () => (
       interface design. I also enjoy the problem solving and logical thinking
       associated with back-end development.
     </p>
+    <InstagramFeed limit={12}></InstagramFeed>
   </Container>
 );
 
