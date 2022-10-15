@@ -1,14 +1,9 @@
 import "./Feed.css";
 import React from "react";
 import { Container } from "react-bootstrap";
-import { FeedModel } from "../../models/feed.model";
 
-interface FeedProp {
-  feed: FeedModel;
-}
-
-const Feed = ({ feed }: FeedProp) => {
-  const { id, caption, media_type, media_url } = feed;
+const Feed = ({ ...props }) => {
+  const { id, caption, media_type, media_url } = props.feed;
   let post;
 
   switch (media_type) {
@@ -37,7 +32,7 @@ const Feed = ({ feed }: FeedProp) => {
   return (
     <Container className="feed-item">
       {post}
-      <h5 className="caption">{caption}</h5>
+      {props.caption && <h5 className="caption">{caption}</h5>}
     </Container>
   );
 };
