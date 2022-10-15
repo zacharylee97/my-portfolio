@@ -43,7 +43,7 @@ const InstagramFeed = ({ ...props }) => {
       </Container>
       <Container className="feed-container">
         {feeds.map((feed) => (
-          <Feed key={feed.id} feed={feed} />
+          <Feed key={feed.id} feed={feed} caption={true} width={"50%"} />
         ))}
       </Container>
     </Container>
