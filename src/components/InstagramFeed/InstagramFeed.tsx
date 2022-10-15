@@ -1,33 +1,15 @@
 import "./InstagramFeed.css";
 import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
-import axios from "axios";
 import Feed from "../Feed/Feed";
 import { FeedModel } from "../../models/feed.model";
 
 const InstagramFeed = ({ ...props }) => {
   const feed: FeedModel[] = [];
-  const [feeds, setFeedsData] = useState(feed);
+  const [feeds] = useState(feed);
 
   useEffect(() => {
     const abortController = new AbortController();
-    const fetchInstagramPost = async () => {
-      try {
-        const token = process.env.REACT_APP_INS_TOKEN;
-        axios
-          .get(
-            `https://graph.instagram.com/me/media?fields=id,media_type,media_url,caption&limit=${props.limit}&access_token=${token}`
-          )
-          .then((resp) => {
-            setFeedsData(resp.data.data);
-          });
-      } catch (err) {
-        console.log("error", err);
-      }
-    };
-
-    fetchInstagramPost();
-
     return () => {
       abortController.abort();
     };
