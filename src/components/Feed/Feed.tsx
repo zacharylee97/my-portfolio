@@ -1,9 +1,14 @@
 import "./Feed.css";
 import React from "react";
 import { Container } from "react-bootstrap";
+import { FeedModel } from "../../models/feed.model";
 
-const Feed = (props: any) => {
-  const { id, caption, media_type, media_url } = props.feed;
+interface FeedProp {
+  feed: FeedModel;
+}
+
+const Feed = ({ feed }: FeedProp) => {
+  const { id, caption, media_type, media_url } = feed;
   let post;
 
   switch (media_type) {
