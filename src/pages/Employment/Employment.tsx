@@ -10,19 +10,9 @@ const Employment = () => (
       <br />
     </Container>
     <Container className="project">
-      <b>OneForm Phase 1C</b>
-      <br />
-      <span>September 2022 to Current</span>
-      <br />
-      <span>Support role for implementing new features for OneForm.</span>
-      <br />
-      <span>TECH: Angular, C#, CosmosDB</span>
-      <br />
-    </Container>
-    <Container className="project">
       <b>Parts Planning Hub</b>
       <br />
-      <span>July 2022 to Current</span>
+      <span>July 2022 to January 2023</span>
       <br />
       <span>An application to allow users to manage products.</span>
       <br />
