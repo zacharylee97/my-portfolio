@@ -14,6 +14,7 @@ import AboutMe from "./pages/AboutMe/AboutMe";
 import LighthouseLabs from "./pages/LighthouseLabs/LighthouseLabs";
 import Beslogic from "./pages/Beslogic/Beslogic";
 import Education from "./pages/Education/Education";
+import Freelance from "./pages/Freelance/Freelance";
 
 const App = () => (
   <Router>
@@ -25,6 +26,7 @@ const App = () => (
       <Route path="education" element={<Education />} />
       <Route path="lighthouse-labs" element={<LighthouseLabs />} />
       <Route path="beslogic" element={<Beslogic />} />
+      <Route path="freelance" element={<Freelance />} />
     </Routes>
   </Router>
 );
