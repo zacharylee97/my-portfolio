@@ -16,6 +16,7 @@ const NavigationBar = () => (
           <Nav.Link href="education">Education</Nav.Link>
           <Nav.Link href="lighthouse-labs">Lighthouse Labs</Nav.Link>
           <Nav.Link href="beslogic">Beslogic</Nav.Link>
+          <Nav.Link href="freelance">Freelance</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
