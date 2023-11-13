@@ -1,8 +1,8 @@
-import "./Employment.css";
+import "./Beslogic.css";
 import React from "react";
 import { Container } from "react-bootstrap";
 
-const Employment = () => (
+const Beslogic = () => (
   <Container className="page-container">
     <Container className="beslogic-container">
       <h1>Beslogic</h1>
@@ -14,19 +14,30 @@ const Employment = () => (
       <br />
       <span>July 2022 to January 2023</span>
       <br />
-      <span>An application to allow users to manage products.</span>
+      <span>
+        Web app for users to view details on airplane and engine parts
+      </span>
       <br />
       <span>TECH: Angular, C#, DynamoDB</span>
       <br />
     </Container>
     <Container className="project">
-      <b>Services Hub</b>
+      <span>
+        <b>Services Hub</b>
+        <br />
+        <a href="https://www.pwc.ca/en/services-hub/">
+          https://www.pwc.ca/en/services-hub/
+        </a>
+      </span>
       <br />
       <span>February 2022 to August 2022</span>
       <br />
       <span>
-        An application to allow customers to find services for their aircraft
-        and engine models.
+        Web app consisting of:
+        <br />
+        - external website for customers to find services associated to their
+        aircraft and engine models
+        <br />- internal application for customization of external survery
       </span>
       <br />
       <span>TECH: Angular, C#, SQL</span>
@@ -38,8 +49,10 @@ const Employment = () => (
       <span>July 2021 to August 2022</span>
       <br />
       <span>
-        An application consisting of an external form to allow users to register
-        for an account and an internal application to process the registrations.
+        Web app consisting of:
+        <br />
+        - external form for customers to register for an account
+        <br />- internal application to process registration
       </span>
       <br />
       <span>TECH: Angular, C#, CosmosDB</span>
@@ -51,8 +64,7 @@ const Employment = () => (
       <span>January 2021 to July 2021</span>
       <br />
       <span>
-        An application to allow users to view and edit information about engine
-        models.
+        Web app for users to view and edit information about engine models
       </span>
       <br />
       <span>TECH: Angular, C#, SQL</span>
@@ -63,7 +75,7 @@ const Employment = () => (
       <br />
       <span>October 2020 to January 2021</span>
       <br />
-      <span>An application to generate article summaries through AI.</span>
+      <span>Web app to generate article summaries using AI</span>
       <br />
       <span>TECH: Angular, C#</span>
       <br />
@@ -73,7 +85,7 @@ const Employment = () => (
       <br />
       <span>August 2020 to December 2020</span>
       <br />
-      <span>Mobile app for employees to complete daily surveys.</span>
+      <span>Mobile app for employees to complete daily surveys</span>
       <br />
       <span>TECH: React Native</span>
       <br />
@@ -83,7 +95,9 @@ const Employment = () => (
       <br />
       <span>July 2020 to September 2020</span>
       <br />
-      <span>An application to create surveys for employees.</span>
+      <span>
+        Web app to create custom surveys and collect data for employees
+      </span>
       <br />
       <span>TECH: Angular, C#, MongoDB</span>
       <br />
@@ -93,7 +107,7 @@ const Employment = () => (
       <br />
       <span>January 2019 to August 2020</span>
       <br />
-      <span>Customer portal for Pratt and Whitney Canada.</span>
+      <span>Customer portal for Pratt and Whitney Canada</span>
       <br />
       <span>TECH: Angular, C#, SQL</span>
       <br />
@@ -101,4 +115,4 @@ const Employment = () => (
   </Container>
 );
 
-export default Employment;
+export default Beslogic;
