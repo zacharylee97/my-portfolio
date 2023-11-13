@@ -8,13 +8,23 @@ const Education = () => (
       <h1>Education</h1>
       <b>McGill University</b>
       <br />
+      <span>September 2014 to April 2018</span>
+      <br />
       <span>B.Sc. Physiology Major</span>
       <br />
-      <span>September 2014 to April 2018</span>
+    </Container>
+    <Container className="education-container">
+      <b>Western Canada High School</b>
+      <br />
+      <span>September 2011 to April 2014</span>
+      <br />
+      <span>International Baccalaureate® (IB) Diploma Programme (DP)</span>
+      <br />
+      <span>Alberta High School Diploma</span>
       <br />
     </Container>
     <Container className="projects-container">
-      <h1>Projects</h1>
+      <h1>Research Projects</h1>
       <Container className="project">
         <b>Summer Research Project</b>
         <br />
