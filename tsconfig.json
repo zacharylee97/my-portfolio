@@ -1,14 +1,25 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Create React App",
+  "extends": "@tsconfig/create-react-app/tsconfig.json",
+  "_version": "2.0.0",
+
   "compilerOptions": {
-    "jsx": "react",
-    "module": "commonjs",
-    "noImplicitAny": true,
-    "outDir": "./build/",
-    "preserveConstEnums": true,
-    "removeComments": true,
-    "sourceMap": true,
-    "target": "es5",
-    "esModuleInterop": true
-  },
-  "include": ["src/index.tsx"]
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "Node16",
+    "target": "es2015",
+
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true
+  }
 }

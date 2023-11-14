@@ -1,5 +1,5 @@
 import "./InstagramFeed.css";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import axios from "axios";
 import Feed from "../Feed/Feed";
