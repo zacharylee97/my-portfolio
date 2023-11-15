@@ -1,9 +1,9 @@
 import "./InstagramPost.css";
-import React, { useEffect, useState } from "react";
-import Container from "react-bootstrap/Container";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import Feed from "../Feed/Feed";
 import { FeedModel } from "../../models/feed.model";
+import { Container } from "react-bootstrap";
 
 const InstagramPost = ({ ...props }) => {
   let post: FeedModel | undefined;
