@@ -1,0 +1,13 @@
+.navbar-container {
+  display: flex;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.navbar-nav a {
+  margin: 0 2em;
+}

@@ -14,8 +14,8 @@ const Contact = () => (
     <br />
     <span>
       Instagram:{" "}
-      <a href="https://www.instagram.com/zachary.lee97/">
-        https://www.instagram.com/zachary.lee97/
+      <a href="https://www.instagram.com/zachary.lee97">
+        https://www.instagram.com/zachary.lee97
       </a>
     </span>
     <br />
