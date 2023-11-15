@@ -7,7 +7,7 @@ import {
   Navigate,
 } from "react-router-dom";
 
-import NavigationBar from "./components/NavigationBar/NavigationBar";
+// import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Home from "./pages/Home/Home";
 import LighthouseLabs from "./pages/LighthouseLabs/LighthouseLabs";
 import Beslogic from "./pages/Beslogic/Beslogic";
@@ -16,7 +16,7 @@ import Freelance from "./pages/Freelance/Freelance";
 
 const App = () => (
   <Router>
-    <NavigationBar />
+    {/* <NavigationBar /> */}
     <Routes>
       <Route path="/" element={<Navigate replace to="/home" />} />
       <Route path="home" element={<Home />} />
