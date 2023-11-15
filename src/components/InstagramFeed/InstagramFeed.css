@@ -1,0 +1,14 @@
+.instagram-feed-container {
+  padding: 0;
+}
+
+.header {
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+.feed-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
