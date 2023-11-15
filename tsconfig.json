@@ -1,7 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "display": "Create React App",
-  "extends": "@tsconfig/create-react-app/tsconfig.json",
   "_version": "2.0.0",
 
   "compilerOptions": {
