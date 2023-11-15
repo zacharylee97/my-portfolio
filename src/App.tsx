@@ -9,7 +9,6 @@ import {
 
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Home from "./pages/Home/Home";
-import AboutMe from "./pages/AboutMe/AboutMe";
 import LighthouseLabs from "./pages/LighthouseLabs/LighthouseLabs";
 import Beslogic from "./pages/Beslogic/Beslogic";
 import Education from "./pages/Education/Education";
@@ -21,7 +20,6 @@ const App = () => (
     <Routes>
       <Route path="/" element={<Navigate replace to="/home" />} />
       <Route path="home" element={<Home />} />
-      <Route path="about-me" element={<AboutMe />} />
       <Route path="education" element={<Education />} />
       <Route path="lighthouse-labs" element={<LighthouseLabs />} />
       <Route path="beslogic" element={<Beslogic />} />
