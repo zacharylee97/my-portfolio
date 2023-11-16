@@ -2,12 +2,12 @@ import "./Beslogic.css";
 import { Container } from "react-bootstrap";
 
 const Beslogic = () => (
-  <Container className="page-container">
-    <Container className="beslogic-container">
-      <h2>Beslogic</h2>
+  <Container className="beslogic-container">
+    <div className="header">
+      <h1>Beslogic</h1>
       <a href="https://www.beslogic.com">https://www.beslogic.com</a>
       <br />
-    </Container>
+    </div>
     <Container className="project">
       <b>Parts Planning Hub</b>
       <br />
@@ -24,8 +24,8 @@ const Beslogic = () => (
       <span>
         <b>Services Hub</b>
         <br />
-        <a href="https://www.pwc.ca/en/services-hub/">
-          https://www.pwc.ca/en/services-hub/
+        <a href="https://www.pwc.ca/en/services-hub">
+          https://www.pwc.ca/en/services-hub
         </a>
       </span>
       <br />

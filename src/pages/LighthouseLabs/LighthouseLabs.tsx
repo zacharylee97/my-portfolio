@@ -14,9 +14,9 @@ const LighthouseLabs = () => (
       </a>
       <br />
       <span>
-        A user-friendly web application built with React for Game Masters and
-        Authors to easily organize the details of their world, including a world
-        map with markers for locations.
+        A user-friendly web application for Game Masters and authors to easily
+        organize the details of their world, including a world map with markers
+        for locations
       </span>
       <br />
       <span>
@@ -36,7 +36,7 @@ const LighthouseLabs = () => (
       <br />
       <span>
         A mini e-commerce application where visitors can browse the catalogue,
-        add items to the cart and checkout.
+        add items to the cart and checkout
       </span>
       <br />
       <span>TECH: Ruby on Rails, Stripe API, PostgreSQL, SASS, bcrypt</span>
@@ -53,7 +53,7 @@ const LighthouseLabs = () => (
       <br />
       <span>
         A single-page app built with React that allows users to send and receive
-        messages in real-time.
+        messages in real-time
       </span>
       <br />
       <span>
@@ -73,7 +73,7 @@ const LighthouseLabs = () => (
       <br />
       <span>
         A simple Doodle clone to plan an event by comparing availability of
-        attendees.
+        attendees
       </span>
       <br />
       <span>
@@ -92,7 +92,7 @@ const LighthouseLabs = () => (
       </a>
       <br />
       <span>
-        A simple, single-page Twitter clone where new posts can be created.
+        A simple, single-page Twitter clone where new posts can be created
       </span>
       <br />
       <span>
