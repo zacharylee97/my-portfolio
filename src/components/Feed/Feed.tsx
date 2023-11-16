@@ -1,20 +1,15 @@
 import "./Feed.css";
 import { Container } from "react-bootstrap";
-import { FeedModel } from "../../models/feed.model";
 
-interface FeedProp {
-  feed: FeedModel;
-}
-
-const Feed = ({ feed }: FeedProp) => {
-  const { id, caption, media_type, media_url } = feed;
+const Feed = ({ ...props }) => {
+  const { id, caption, media_type, media_url } = props.feed;
   let post;
 
   switch (media_type) {
     case "VIDEO":
       post = (
         <video
-          width="100%"
+          width={props.width}
           height="auto"
           src={media_url}
           typeof="video/mp4"
@@ -25,18 +20,30 @@ const Feed = ({ feed }: FeedProp) => {
       break;
     case "CAROUSEL_ALBUM":
       post = (
-        <img width="100%" height="auto" id={id} src={media_url} alt={caption} />
+        <img
+          width={props.width}
+          height="auto"
+          id={id}
+          src={media_url}
+          alt={caption}
+        />
       );
       break;
     default:
       post = (
-        <img width="50%" height="auto" id={id} src={media_url} alt={caption} />
+        <img
+          width={props.width}
+          height="auto"
+          id={id}
+          src={media_url}
+          alt={caption}
+        />
       );
   }
   return (
     <Container className="feed-item">
       {post}
-      <h5 className="caption">{caption}</h5>
+      {props.caption && <h5 className="caption">{caption}</h5>}
     </Container>
   );
 };
