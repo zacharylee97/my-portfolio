@@ -11,8 +11,7 @@ const NavigationBar = () => (
           <Nav.Link href="home">Home</Nav.Link>
           <Nav.Link href="education">Education</Nav.Link>
           <Nav.Link href="lighthouse-labs">Lighthouse Labs</Nav.Link>
-          <Nav.Link href="beslogic">Beslogic</Nav.Link>
-          <Nav.Link href="freelance">Freelance</Nav.Link>
+          <Nav.Link href="employment">Employment</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

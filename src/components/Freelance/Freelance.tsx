@@ -18,7 +18,7 @@ const Freelance = () => (
       <br />
       <span>Website for FLC Consulting</span>
       <br />
-      <span>TECH: Next.js</span>
+      <span>TECH: Next.js, Typescript, Tailwind CSS</span>
       <br />
     </Container>
   </Container>

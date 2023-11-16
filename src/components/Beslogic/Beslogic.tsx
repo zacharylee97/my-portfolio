@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 const Beslogic = () => (
   <Container className="page-container">
     <Container className="beslogic-container">
-      <h1>Beslogic</h1>
+      <h2>Beslogic</h2>
       <a href="https://www.beslogic.com">https://www.beslogic.com</a>
       <br />
     </Container>
@@ -17,7 +17,7 @@ const Beslogic = () => (
         Web app for users to view details on airplane and engine parts
       </span>
       <br />
-      <span>TECH: Angular, C#, DynamoDB</span>
+      <span>TECH: Angular, Typescript, C#, DynamoDB</span>
       <br />
     </Container>
     <Container className="project">
@@ -39,7 +39,7 @@ const Beslogic = () => (
         <br />- internal application for customization of external survery
       </span>
       <br />
-      <span>TECH: Angular, C#, SQL</span>
+      <span>TECH: Angular, Typescript, C#, SQL</span>
       <br />
     </Container>
     <Container className="project">
@@ -54,7 +54,7 @@ const Beslogic = () => (
         <br />- internal application to process registration
       </span>
       <br />
-      <span>TECH: Angular, C#, CosmosDB</span>
+      <span>TECH: Angular, Typescript, C#, CosmosDB</span>
       <br />
     </Container>
     <Container className="project">
@@ -66,7 +66,7 @@ const Beslogic = () => (
         Web app for users to view and edit information about engine models
       </span>
       <br />
-      <span>TECH: Angular, C#, SQL</span>
+      <span>TECH: Angular, Typescript, AG Grid, C#, SQL</span>
       <br />
     </Container>
     <Container className="project">
@@ -76,7 +76,7 @@ const Beslogic = () => (
       <br />
       <span>Web app to generate article summaries using AI</span>
       <br />
-      <span>TECH: Angular, C#</span>
+      <span>TECH: Angular, Typescript, C#</span>
       <br />
     </Container>
     <Container className="project">
@@ -86,7 +86,7 @@ const Beslogic = () => (
       <br />
       <span>Mobile app for employees to complete daily surveys</span>
       <br />
-      <span>TECH: React Native</span>
+      <span>TECH: React Native, Typescript</span>
       <br />
     </Container>
     <Container className="project">
@@ -98,7 +98,7 @@ const Beslogic = () => (
         Web app to create custom surveys and collect data for employees
       </span>
       <br />
-      <span>TECH: Angular, C#, MongoDB</span>
+      <span>TECH: Angular, Typescript, C#, MongoDB</span>
       <br />
     </Container>
     <Container className="project">
@@ -108,7 +108,7 @@ const Beslogic = () => (
       <br />
       <span>Customer portal for Pratt and Whitney Canada</span>
       <br />
-      <span>TECH: Angular, C#, SQL</span>
+      <span>TECH: Angular, Javascript, Typescript, C#, SQL</span>
       <br />
     </Container>
   </Container>
