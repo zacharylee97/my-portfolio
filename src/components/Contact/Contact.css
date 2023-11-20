@@ -1,3 +1,10 @@
 .contact-container {
   display: flex;
+  padding: 0;
+}
+
+.instagram-container,
+.links-container {
+  margin-top: 1em;
+  padding: 0;
 }
