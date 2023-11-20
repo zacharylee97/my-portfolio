@@ -4,9 +4,9 @@ import { Container } from "react-bootstrap";
 const LighthouseLabs = () => (
   <Container className="page-container">
     <h1>Lighthouse Labs</h1>
+    <h3>September 2018 to December 2018</h3>
     <Container className="project">
-      <b>The Forge</b>
-      <br />
+      <h5>The Forge</h5>
       <span>November 2018</span>
       <br />
       <a href="https://github.com/zacharylee97/the-forge">
@@ -26,8 +26,7 @@ const LighthouseLabs = () => (
       <br />
     </Container>
     <Container className="project">
-      <b>Jungle</b>
-      <br />
+      <h5>Jungle</h5>
       <span>November 2018</span>
       <br />
       <a href="https://github.com/zacharylee97/jungle-rails">
@@ -43,8 +42,7 @@ const LighthouseLabs = () => (
       <br />
     </Container>
     <Container className="project">
-      <b>Chatty App</b>
-      <br />
+      <h5>Chatty App</h5>
       <span>October 2018 to November 2018</span>
       <br />
       <a href="https://github.com/zacharylee97/chatty-app">
@@ -63,8 +61,7 @@ const LighthouseLabs = () => (
       <br />
     </Container>
     <Container className="project">
-      <b>Schoodle</b>
-      <br />
+      <h5>Schoodle</h5>
       <span>October 2018</span>
       <br />
       <a href="https://github.com/zacharylee97/schoodle">
@@ -83,8 +80,7 @@ const LighthouseLabs = () => (
       <br />
     </Container>
     <Container className="project">
-      <b>Tweeter</b>
-      <br />
+      <h5>Tweeter</h5>
       <span>October 2018</span>
       <br />
       <a href="https://github.com/zacharylee97/tweeter-project">
