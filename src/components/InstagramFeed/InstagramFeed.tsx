@@ -1,6 +1,5 @@
 import "./InstagramFeed.css";
 import { useEffect, useState } from "react";
-import { Container } from "react-bootstrap";
 import axios from "axios";
 import Feed from "../Feed/Feed";
 import { FeedModel } from "../../models/feed.model";
@@ -34,19 +33,19 @@ const InstagramFeed = ({ ...props }) => {
   }, [props.limit]);
 
   return (
-    <Container className="instagram-feed-container">
-      <Container className="header">
+    <div className="instagram-feed-container">
+      <div className="header">
         <h1>Instagram</h1>
         <a href="https://www.instagram.com/zachary.lee97/">
           https://www.instagram.com/zachary.lee97/
         </a>
-      </Container>
-      <Container className="feed-container">
+      </div>
+      <div className="feed-container">
         {feeds.map((feed) => (
           <Feed key={feed.id} feed={feed} caption={true} width={"50%"} />
         ))}
-      </Container>
-    </Container>
+      </div>
+    </div>
   );
 };
 

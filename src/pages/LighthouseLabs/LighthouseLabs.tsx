@@ -1,102 +1,78 @@
 import "./LighthouseLabs.css";
-import { Container } from "react-bootstrap";
 
 const LighthouseLabs = () => (
-  <Container className="page-container">
+  <div className="page-container">
     <h1>Lighthouse Labs</h1>
     <h3>September 2018 to December 2018</h3>
-    <Container className="project">
+    <br />
+    <div className="project">
       <h5>The Forge</h5>
-      <span>November 2018</span>
-      <br />
+      <p>November 2018</p>
       <a href="https://github.com/zacharylee97/the-forge">
         https://github.com/zacharylee97/the-forge
       </a>
-      <br />
-      <span>
+      <p>
         A user-friendly web application for Game Masters and authors to easily
         organize the details of their world, including a world map with markers
         for locations
-      </span>
-      <br />
-      <span>
+      </p>
+      <p>
         TECH: JavaScript, NodeJS, HTML, SCSS, Bootstrap, React, Leaflet API,
         Apollo, GraphQL, Sequelize, PostGreSQL
-      </span>
-      <br />
-    </Container>
-    <Container className="project">
+      </p>
+    </div>
+    <div className="project">
       <h5>Jungle</h5>
-      <span>November 2018</span>
-      <br />
+      <p>November 2018</p>
       <a href="https://github.com/zacharylee97/jungle-rails">
         https://github.com/zacharylee97/jungle-rails
       </a>
-      <br />
-      <span>
+      <p>
         A mini e-commerce application where visitors can browse the catalogue,
         add items to the cart and checkout
-      </span>
-      <br />
-      <span>TECH: Ruby on Rails, Stripe API, PostgreSQL, SASS, bcrypt</span>
-      <br />
-    </Container>
-    <Container className="project">
+      </p>
+      <p>TECH: Ruby on Rails, Stripe API, PostgreSQL, SASS, bcrypt</p>
+    </div>
+    <div className="project">
       <h5>Chatty App</h5>
-      <span>October 2018 to November 2018</span>
-      <br />
+      <p>October 2018 to November 2018</p>
       <a href="https://github.com/zacharylee97/chatty-app">
         https://github.com/zacharylee97/chatty-app
       </a>
-      <br />
-      <span>
+      <p>
         A single-page app built with React that allows users to send and receive
         messages in real-time
-      </span>
-      <br />
-      <span>
+      </p>
+      <p>
         TECH: JavaScript, NodeJS, Express, HTML, SCSS, Bootstrap, React,
         WebSockets
-      </span>
-      <br />
-    </Container>
-    <Container className="project">
+      </p>
+    </div>
+    <div className="project">
       <h5>Schoodle</h5>
-      <span>October 2018</span>
-      <br />
+      <p>October 2018</p>
       <a href="https://github.com/zacharylee97/schoodle">
         https://github.com/zacharylee97/schoodle
       </a>
-      <br />
-      <span>
+      <p>
         A simple Doodle clone to plan an event by comparing availability of
         attendees
-      </span>
-      <br />
-      <span>
+      </p>
+      <p>
         TECH: JavaScript, NodeJS, Express, HTML, SCSS, Bootstrap, jQuery, AJAX,
         PostGreSQL, KnexJS
-      </span>
-      <br />
-    </Container>
-    <Container className="project">
+      </p>
+    </div>
+    <div className="project">
       <h5>Tweeter</h5>
-      <span>October 2018</span>
-      <br />
+      <p>October 2018</p>
       <a href="https://github.com/zacharylee97/tweeter-project">
         https://github.com/zacharylee97/tweeter-project
       </a>
-      <br />
-      <span>
-        A simple, single-page Twitter clone where new posts can be created
-      </span>
-      <br />
-      <span>
-        TECH: JavaScript, NodeJS, Express, HTML, CSS, jQuery, AJAX, MongoDB
-      </span>
-      <br />
-    </Container>
-  </Container>
+      <p>A simple, single-page Twitter clone where new posts can be created</p>
+      <p>TECH: JavaScript, NodeJS, Express, HTML, CSS, jQuery, AJAX, MongoDB</p>
+    </div>
+  </div>
 );
 
 export default LighthouseLabs;

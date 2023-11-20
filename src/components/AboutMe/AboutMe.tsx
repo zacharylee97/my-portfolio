@@ -1,8 +1,7 @@
 import "./AboutMe.css";
-import { Container } from "react-bootstrap";
 
 const AboutMe = () => (
-  <Container className="page-container">
+  <div className="about-me-container">
     <h1>About Me</h1>
     <p>
       I am a full-stack web developer with a background in life sciences. Having
@@ -16,7 +15,7 @@ const AboutMe = () => (
       working on the database side of things as well, designing the structure
       and writing queries.
     </p>
-  </Container>
+  </div>
 );
 
 export default AboutMe;
