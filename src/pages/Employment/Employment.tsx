@@ -1,5 +1,5 @@
 import "./Employment.css";
-import { Container, Nav } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import { useState } from "react";
 import EmploymentItem from "../../components/EmploymentItem/EmploymentItem";
 
@@ -7,7 +7,7 @@ const Employment = () => {
   const [selectedKey, setSelectedKey] = useState("beslogic");
 
   return (
-    <Container className="page-container">
+    <div className="page-container">
       <h1>Employment</h1>
       <Nav
         variant="underline"
@@ -22,7 +22,7 @@ const Employment = () => {
         </Nav.Item>
       </Nav>
       <EmploymentItem selectedKey={selectedKey} />
-    </Container>
+    </div>
   );
 };
 

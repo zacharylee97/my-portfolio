@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Feed from "../Feed/Feed";
 import { FeedModel } from "../../models/feed.model";
-import { Container } from "react-bootstrap";
 
 const InstagramPost = ({ ...props }) => {
   let post: FeedModel | undefined;
@@ -34,9 +33,9 @@ const InstagramPost = ({ ...props }) => {
   }, [props.limit]);
 
   return (
-    <Container className="feed-container">
+    <div className="feed-container">
       {feed && <Feed key={feed.id} feed={feed} width={"100%"} />}
-    </Container>
+    </div>
   );
 };
 

@@ -1,5 +1,4 @@
 import "./Feed.css";
-import { Container } from "react-bootstrap";
 
 const Feed = ({ ...props }) => {
   const { id, caption, media_type, media_url } = props.feed;
@@ -41,10 +40,10 @@ const Feed = ({ ...props }) => {
       );
   }
   return (
-    <Container className="feed-item">
+    <div className="feed-item">
       {post}
       {props.caption && <h5 className="caption">{caption}</h5>}
-    </Container>
+    </div>
   );
 };
 

@@ -1,7 +1,8 @@
 .beslogic-container {
-  margin-top: 2em;
+  margin-top: 1em;
+  padding: 0;
 }
 
-.header {
+.beslogic-header {
   margin-bottom: 2em;
 }
