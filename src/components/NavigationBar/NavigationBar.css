@@ -14,3 +14,13 @@
 .navbar-nav a {
   margin: 0 2em;
 }
+
+.hamburger-button {
+  margin-right: 1em;
+}
+
+@media (max-width: 990px) {
+  .navbar-container {
+    display: inline-block;
+  }
+}
