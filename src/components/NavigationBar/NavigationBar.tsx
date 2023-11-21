@@ -4,8 +4,11 @@ import { Nav, Navbar } from "react-bootstrap";
 const NavigationBar = () => (
   <Navbar fixed="top" bg="light" expand="lg">
     <div className="navbar-container">
+      <Navbar.Toggle
+        className="hamburger-button"
+        aria-controls="basic-navbar-nav"
+      />
       <Navbar.Brand href="home">My Portfolio</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="home">Home</Nav.Link>
