@@ -2,7 +2,7 @@ import "./NavigationBar.css";
 import { Nav, Navbar } from "react-bootstrap";
 
 const NavigationBar = () => (
-  <Navbar bg="light" expand="lg">
+  <Navbar fixed="top" bg="light" expand="lg">
     <div className="navbar-container">
       <Navbar.Brand href="home">My Portfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
