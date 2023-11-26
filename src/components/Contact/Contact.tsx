@@ -6,28 +6,34 @@ const Contact = () => (
     <div className="contact-info">
       <h1>Zachary Lee</h1>
       <h3>Full Stack Software Developer</h3>
-      <br />
       <p>
         Email:{" "}
         <a href="mailto:zacharylhlee@gmail.com">zacharylhlee@gmail.com</a>
       </p>
       <p>Phone: +1 (438) 992-9667</p>
-      <div className="instagram-container">
+      <p>
+        Instagram:{" "}
+        <a href="https://www.instagram.com/zachary.lee97">
+          https://www.instagram.com/zachary.lee97
+        </a>
+      </p>
+      <div className="queer-aquarian-container">
+        <h3>Queer Aquarian</h3>
         <p>
-          Personal Instagram:{" "}
-          <a href="https://www.instagram.com/zachary.lee97">
-            https://www.instagram.com/zachary.lee97
+          Website:{" "}
+          <a href="https://queer-aquarian.netlify.app">
+            https://queer-aquarian.netlify.app
           </a>
         </p>
-
         <p>
-          Queer Aquarian Instagram:{" "}
+          Instagram:{" "}
           <a href="https://www.instagram.com/queer_aquarian">
             https://www.instagram.com/queer_aquarian
           </a>
         </p>
       </div>
-      <div className="links-container">
+      <div className="other-links-container">
+        <h3>Other Links</h3>
         <p>
           LinkedIn:{" "}
           <a href="https://www.linkedin.com/in/zachary-lee-850b2314a">
