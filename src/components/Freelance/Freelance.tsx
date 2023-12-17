@@ -10,7 +10,10 @@ const Freelance = () => (
         https://queer-aquarian.netlify.app
       </a>
       <p>November 2023 to Current</p>
-      <p>Personal blog for posts including photography, music and text</p>
+      <p>
+        Website for sharing personal interests including music, photography,
+        food and travel
+      </p>
       <p>TECH: Next.js, Typescript, Tailwind CSS</p>
     </div>
     <div className="project">
