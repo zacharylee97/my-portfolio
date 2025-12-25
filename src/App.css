@@ -8,7 +8,8 @@ p {
 }
 
 .education,
-.project {
+.project,
+.volunteering {
   padding: 0;
   margin-bottom: 2em;
 }
