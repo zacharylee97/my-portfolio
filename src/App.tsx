@@ -12,6 +12,7 @@ import Home from "./pages/Home/Home";
 import LighthouseLabs from "./pages/LighthouseLabs/LighthouseLabs";
 import Employment from "./pages/Employment/Employment";
 import Education from "./pages/Education/Education";
+import Volunteering from "./pages/Volunteering/Volunteering";
 
 const App = () => (
   <Router>
@@ -22,6 +23,7 @@ const App = () => (
       <Route path="education" element={<Education />} />
       <Route path="lighthouse-labs" element={<LighthouseLabs />} />
       <Route path="employment" element={<Employment />} />
+      <Route path="volunteering" element={<Volunteering />} />
     </Routes>
   </Router>
 );

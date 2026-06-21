@@ -56,16 +56,6 @@ const Education = () => (
         RNA helicases in cyanobacteria
       </p>
     </div>
-    <div className="volunteering-container">
-      <h1>Volunteering</h1>
-      <h5>Montreal General Hospital</h5>
-      <p>Friendly Visitor</p>
-      <p>November 2014 to April 2018</p>
-      <p>
-        Weekly visits to patients in orthopaedic and general surgery wards to
-        provide company and assistance
-      </p>
-    </div>
   </div>
 );
 

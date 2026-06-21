@@ -15,7 +15,7 @@ const Volunteering = () => {
       </div>
       <div className="volunteering">
         <h5>Link and Learn</h5>
-        <p>August 2025 to June 2026</p>
+        <p>August 2025 to Present</p>
         <p>
           Weekly shadowing sessions following aides working with kids with
           special needs
