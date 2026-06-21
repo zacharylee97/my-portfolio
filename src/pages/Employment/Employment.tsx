@@ -20,6 +20,9 @@ const Employment = () => {
         <Nav.Item>
           <Nav.Link eventKey="freelance">Freelance</Nav.Link>
         </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="linkAndLearn">Link And Learn</Nav.Link>
+        </Nav.Item>
       </Nav>
       <EmploymentItem selectedKey={selectedKey} />
     </div>
