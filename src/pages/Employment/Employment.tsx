@@ -15,7 +15,7 @@ const Employment = () => {
         onSelect={(selectedKey) => setSelectedKey(selectedKey ?? "")}
       >
         <Nav.Item>
-          <Nav.Link eventKey="linkAndLearn">Link And Learn</Nav.Link>
+          <Nav.Link eventKey="linkAndLearn">Link and Learn</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="freelance">Freelance</Nav.Link>

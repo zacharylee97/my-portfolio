@@ -3,7 +3,7 @@ import "./LinkAndLearn.css";
 const LinkAndLearn = () => (
   <div className="link-and-learn-container">
     <div className="link-and-learn-header">
-      <h1>Link And Learn</h1>
+      <h1>Link and Learn</h1>
       <h3>June 2026 to Present</h3>
       <a href="https://www.linkandlearn.ca">https://www.linkandlearn.ca</a>
     </div>
