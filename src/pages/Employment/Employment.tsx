@@ -4,24 +4,24 @@ import { useState } from "react";
 import EmploymentItem from "../../components/EmploymentItem/EmploymentItem";
 
 const Employment = () => {
-  const [selectedKey, setSelectedKey] = useState("beslogic");
+  const [selectedKey, setSelectedKey] = useState("linkAndLearn");
 
   return (
     <div className="page-container">
       <h1>Employment</h1>
       <Nav
         variant="underline"
-        defaultActiveKey="beslogic"
+        defaultActiveKey="linkAndLearn"
         onSelect={(selectedKey) => setSelectedKey(selectedKey ?? "")}
       >
         <Nav.Item>
-          <Nav.Link eventKey="beslogic">Beslogic</Nav.Link>
+          <Nav.Link eventKey="linkAndLearn">Link And Learn</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="freelance">Freelance</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="linkAndLearn">Link And Learn</Nav.Link>
+          <Nav.Link eventKey="beslogic">Beslogic</Nav.Link>
         </Nav.Item>
       </Nav>
       <EmploymentItem selectedKey={selectedKey} />
